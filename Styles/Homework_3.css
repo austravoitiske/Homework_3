@@ -31,9 +31,7 @@ body{
     flex-flow: row wrap;
     grid-gap: 10px;
     margin: auto;
-    justify-items: center;
-    max-width: 80px; 
-    justify-content:center;
+    padding-left: 0px;
 }
 footer{
     display: flex;
@@ -125,7 +123,8 @@ header{
     height: 100px;
 }
 .app-cont{  /*ievaditie laucini*/
-    max-width: 500px; 
+    max-width: 500px;
+    padding-left: 55px; 
 }
 .container{
     display: flex;
@@ -143,5 +142,6 @@ header{
 }
 .app-cont{  /*ievaditie laucini*/
     max-width: 900px;
+    padding-left: 10px;
 }
 }
